@@ -1,6 +1,7 @@
 package lofm.examples;
 
 public class ArraysExample {
+
     public void runExamples() {
         //Creating an array in one line
         String[] shoppingList = {"eggs", "milk", "fruit"};
@@ -50,4 +51,5 @@ public class ArraysExample {
             System.out.println("allItems's element " + i + ": " + allItems[i]);
         }
     }
+
 }
