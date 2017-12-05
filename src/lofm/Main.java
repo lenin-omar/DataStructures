@@ -1,6 +1,6 @@
 package lofm;
 
-import lofm.examples.ArrayVsLinkedExample;
+import lofm.examples.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,12 +17,30 @@ public class Main {
 //        binarySearchExample();
 //        sortExample();
 
-        // ArrayList
-        ArrayVsLinkedExample arrayVsLinkedExample = new ArrayVsLinkedExample();
-        arrayVsLinkedExample.failFastExample();
-        arrayVsLinkedExample.compareAddingFirst();
-        arrayVsLinkedExample.compareAddingMiddle();
-        arrayVsLinkedExample.compareAddingLast();
+        // ArrayList and LinkedList
+//        ArrayVsLinkedExample arrayVsLinkedExample = new ArrayVsLinkedExample();
+//        arrayVsLinkedExample.failFastExample();
+//        arrayVsLinkedExample.compareAddingFirst();
+//        arrayVsLinkedExample.compareAddingMiddle();
+//        arrayVsLinkedExample.compareAddingLast();
+
+        // Stack
+//        StackExample stackExample = new StackExample();
+//        System.out.println("Verify parenthesis using Stack: " + stackExample.verifyParenthesis("Not balanced String (()()()"));
+
+        // Set
+//        SetExample setExample = new SetExample();
+//        setExample.compareSets();
+
+        // PriorityQueue
+//        PriorityQueueExample priorityQueueExample = new PriorityQueueExample();
+//        priorityQueueExample.showExamples();
+
+        // HashMap
+//        HashMapExample hashMapExample = new HashMapExample();
+//        hashMapExample.showExample();
+
+
     }
 
     private static void binarySearchExample() {
